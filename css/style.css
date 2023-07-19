@@ -373,7 +373,23 @@ footer{
     .banner-heading{
         font-size: 2rem;
     }
-/*====== games part responsive css======= */
+/* =========== play part responsive css ========== */
+    .play-container{
+        flex-direction: column;
+    }
+    .play-content{
+        text-align: center;
+        width: 100%;
+    }
+    .img-con{
+        width: 100%;
+    }
+    .play-container .img img{
+        width: 60%;
+        margin-left: 100px;
+    }
+
+/*====== games part responsive css  ================ */
     .games-cards-container{
         grid-template-columns: 1fr;   
     }  
