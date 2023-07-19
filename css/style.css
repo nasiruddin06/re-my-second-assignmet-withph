@@ -114,7 +114,7 @@ nav{
 /*================ banner css end============ */
 .play-container{
     max-width: 1170px;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 150px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,6 +123,21 @@ nav{
 .play-content{
     text-align: right;
     width: 50%;
+}
+.play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-heading{
+    color: #0B0223;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.play-descripton{
+    color: #534C64;
+    font-size: 1rem;
 }
 
 .img-con{
