@@ -112,6 +112,41 @@ nav{
 }
 
 /*================ banner css end============ */
+.play-container{
+    max-width: 1170px;
+    margin: 50px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.play-content{
+    text-align: right;
+    width: 50%;
+}
+
+.img-con{
+    position: relative;
+}
+.img img{
+    width: 500px;
+}
+.inner-img{
+    position: absolute;
+    left: -80px;
+    bottom: -50px;
+}
+.inner-img img{
+    max-width: 200px;
+    max-height: 250px;
+}
+
+
+
+
+
+
+
 
 .games-container{
     max-width: 1170px;
